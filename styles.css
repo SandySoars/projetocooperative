@@ -1,0 +1,148 @@
+/* Reset de estilos para remoção de margens e preenchimentos padrão */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    /* Outros estilos */
+    background: linear-gradient(to right, #05260aa0, transparent 10%), url('./IMG/tronco-de-rio-pequeno-na-floresta-tropical.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* Estilos para o cabeçalho */
+header {
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para as seções */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+    margin-left: 10px; /* Posiciona à esquerda da tela */
+    margin-right: 30%; /* Adiciona um espaçamento fixo para a direita */
+}
+
+
+h1, h2 {
+    color: #fcfcfc;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+p{
+    color: #fff;
+}
+
+li {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: flex;
+    bottom: 0;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    border-radius: 70%;
+    border: 2px solid #fff;
+    transition: transform 0.5s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.5);
+}
+
+.navbar-container ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-container ul li {
+    margin-right: 20px;
+}
+
+.navbar-container ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar-container ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-container ul li a:hover {
+    text-decoration: none;
+    color: #d3d622;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+}
+footer a {
+    margin: 30px;
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }}
+    @media screen and (max-width: 768px) {
+        .navbar-container {
+            flex-direction: column;
+            align-items: flex-start;
+        }}
+    
